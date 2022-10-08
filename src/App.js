@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, { useState } from "react";
+import Nav from "./components/Nav";
+import About from "./components/About";
+import Works from "./components/Works";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Resume from "./components/Resume";
 
 function App() {
+  const [viewing, setViewing] = useState("About");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav setViewing={setViewing}></Nav>
+      <main>
+        {viewing === "About" && <About></About>}
+        {viewing === "Work" && <Works></Works>}
+        {viewing === "Contact" && <Contact></Contact>}
+        {viewing === "Resume" && <Resume></Resume>}
+      </main>
+      <Footer></Footer>
     </div>
   );
 }
