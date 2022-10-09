@@ -47,13 +47,14 @@ header nav ul {
   list-style: none;
 }
 
-header nav ul .btn {
+.btn {
   color: var(--primary-color);
   padding: 10px 15px 0px 15px;
   font-size: 1.5vw;
 }
 
-header nav ul .btn:hover {
+header nav ul .btn:hover,
+.nav-active {
   background-color: var(--primary-color);
   color: var(--secondary-color);
   border-top-left-radius: 15px;
@@ -147,8 +148,9 @@ nav li {
 
 /* Contact me section styles */
 form {
-  width: 40%;
-  margin-left: 30%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
   line-height: 1.5;
   font-size: 18px;
 }
@@ -188,17 +190,24 @@ button:hover {
 }
 
 textarea {
-  width: 600px;
+  width: 100%;
   height: 120px;
   border: 3px solid #cccccc;
   padding: 5px;
 }
 
-.contact {
-  padding: 30px 0;
+/* Footer Styles */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 10%;
+  width: 100%;
+  background-color: var(--secondary-color);
+  display: flex;
 }
 
-.contact-info {
+.footer-info {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -206,7 +215,7 @@ textarea {
   flex-wrap: wrap;
 }
 
-.contact-info a {
+.footer-info a {
   color: var(--primary-color);
   flex-wrap: wrap;
   font-size: 26px;
@@ -279,6 +288,10 @@ textarea {
     padding: 0px;
   }
 
+  form {
+    width: 70%;
+  }
+
   .sub-card .caption {
     position: static;
     width: 100%;
@@ -307,8 +320,13 @@ textarea {
     padding: 5px 15px;
   }
 
-  header nav ul .btn:hover {
+  header nav ul .btn:hover,
+  .nav-active {
     border-radius: 15px;
+  }
+
+  form {
+    width: 80%;
   }
 
   .contact-info {

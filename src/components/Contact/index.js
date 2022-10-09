@@ -39,7 +39,7 @@ function Contact() {
 
   const { name, email, message } = formState;
   return (
-    <section className="contact">
+    <section>
       <h2 className="section-title">Contact me</h2>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>

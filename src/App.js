@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <Nav setViewing={setViewing}></Nav>
+      <Nav viewing={viewing} setViewing={setViewing}></Nav>
       <main>
         {viewing === "About" && <About></About>}
         {viewing === "Work" && <Works></Works>}
