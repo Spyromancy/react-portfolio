@@ -2,7 +2,7 @@ import "./App.css";
 import React, { useState } from "react";
 import Nav from "./components/Nav";
 import About from "./components/About";
-import Works from "./components/Works";
+import Works from "./components/Project";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume";
