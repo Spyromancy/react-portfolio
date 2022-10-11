@@ -1,8 +1,8 @@
 import React from "react";
 
-function Footer() {
+function Footer({ viewing }) {
   return (
-    <footer className="footer">
+    <footer className={`footer ${viewing !== "Work" && "absolute"}`}>
       <div className="footer-info">
         <a href="https://github.com/spyromancy"> Github </a>
 

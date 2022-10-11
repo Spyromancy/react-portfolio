@@ -19,7 +19,7 @@ function App() {
         {viewing === "Contact" && <Contact></Contact>}
         {viewing === "Resume" && <Resume></Resume>}
       </main>
-      <Footer></Footer>
+      <Footer viewing={viewing}></Footer>
     </div>
   );
 }
