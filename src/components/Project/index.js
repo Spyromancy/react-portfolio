@@ -12,24 +12,24 @@ function Works() {
     },
     {
       name: "Movie Info DB",
-      languages: "HTML/CSS/JS",
+      languages: "HTML, CSS, JS",
       link: "https://indy6678.github.io/movie-info-db/",
       alt: "a screenshot of the deployed movie info database website",
       git: "https://github.com/indy6678/movie-info-db",
     },
     {
       name: "Compere",
-      languages: "MYSQL/JS/CSS/Express",
+      languages: "MYSQL, JS, CSS, Express",
       link: "https://vast-eyrie-87159.herokuapp.com/",
       alt: "a screenshot of the deployed quiz hositng website compere",
       git: "https://github.com/AHudg/compere",
     },
     {
-      name: "Project 3",
-      languages: "Coming Soon",
-      link: "/",
-      alt: "placeholder image",
-      git: "/",
+      name: "BirthdayPlan-it",
+      languages: "MERN Stack",
+      link: "https://birthdayplanit.herokuapp.com/",
+      alt: "a screenshot of the deployed birthday planning application",
+      git: "https://github.com/violanerd/birthday-plan-it",
     },
 
     {
