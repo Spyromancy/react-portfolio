@@ -33,18 +33,18 @@ function Works() {
     },
 
     {
-      name: "Placeholder2",
-      languages: "coming soon",
+      name: "Social Network API",
+      languages: "JS, RESTful APIs, MongoDb",
       link: "/",
-      alt: "placeholder image",
-      git: "/",
+      alt: "Insomnia logo",
+      git: "https://github.com/Spyromancy/social-network-api",
     },
     {
-      name: "Placeholder1",
-      languages: "coming soon",
+      name: "Employee Tracker",
+      languages: "JS, MySQL",
       link: "/",
-      alt: "placeholder image",
-      git: "/",
+      alt: "MySQL logo",
+      git: "https://github.com/Spyromancy/employee-tracker",
     },
   ]);
   const [isModalOpen, setIsModalOpen] = useState(false);

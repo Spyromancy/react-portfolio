@@ -4,6 +4,7 @@ function Resume() {
   return (
     <div>
       <h2 className="section-title">Resume</h2>
+      <p> </p>
       <p> Coming soon </p>
       <ul>
         <li> ran out of time</li>
