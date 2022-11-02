@@ -4,6 +4,20 @@ import Modal from "../Modal";
 function Works() {
   const [myWorks] = useState([
     {
+      name: "BirthdayPlan-it",
+      languages: "MERN Stack",
+      link: "https://birthdayplanit.herokuapp.com/",
+      alt: "a screenshot of the deployed birthday planning application",
+      git: "https://github.com/violanerd/birthday-plan-it",
+    },
+    {
+      name: "Compere",
+      languages: "MYSQL, JS, CSS, Express",
+      link: "https://vast-eyrie-87159.herokuapp.com/",
+      alt: "a screenshot of the deployed quiz hositng website compere",
+      git: "https://github.com/AHudg/compere",
+    },
+    {
       name: "Run Buddy",
       languages: "HTML, CSS",
       link: "https://spyromancy.github.io/run-buddy/",
@@ -17,21 +31,6 @@ function Works() {
       alt: "a screenshot of the deployed movie info database website",
       git: "https://github.com/indy6678/movie-info-db",
     },
-    {
-      name: "Compere",
-      languages: "MYSQL, JS, CSS, Express",
-      link: "https://vast-eyrie-87159.herokuapp.com/",
-      alt: "a screenshot of the deployed quiz hositng website compere",
-      git: "https://github.com/AHudg/compere",
-    },
-    {
-      name: "BirthdayPlan-it",
-      languages: "MERN Stack",
-      link: "https://birthdayplanit.herokuapp.com/",
-      alt: "a screenshot of the deployed birthday planning application",
-      git: "https://github.com/violanerd/birthday-plan-it",
-    },
-
     {
       name: "Social Network API",
       languages: "JS, RESTful APIs, MongoDb",
