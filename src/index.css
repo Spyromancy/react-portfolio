@@ -92,8 +92,9 @@ nav li {
 
 .about-box {
   width: 75%;
-  margin: auto;
-  border-style: solid;
+  margin: 15px auto;
+  /* border-color: var(--secondary-color); */
+  /* border-style: solid; */
 }
 
 /* My work section styles */

@@ -6,7 +6,11 @@ function Resume() {
       <h2 className="section-title">Resume</h2>
       <div className="resume-container">
         <p>
-          Download my <a href="/"> resume</a>
+          Link to my{" "}
+          <a href="https://docs.google.com/document/d/1_ttgMG_njOH3itKZch3D2O3kkOgwAqk1/view">
+            {" "}
+            resume
+          </a>
         </p>
         <h2> Front-end Proficiencies </h2>
         <ul className="resume-list">
