@@ -9,7 +9,7 @@ function About() {
       </div>
       <div className="about">
         <h2 className="section-title">About Me</h2>
-        <div>
+        <div className="about-box">
           <p>
             I am a hard working programmer who is looking to expand his work
             portfolio and help bring your projects to life. I'm familiar with

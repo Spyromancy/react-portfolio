@@ -16,6 +16,10 @@ body {
   background-color: #3d3d3d;
 }
 
+a:visited {
+  color: var(--tertiary-color);
+}
+
 /*Header Styles*/
 header {
   padding: 20px 35px 0px 35px;
@@ -50,7 +54,7 @@ header nav ul {
 .btn {
   color: var(--primary-color);
   padding: 10px 15px 0px 15px;
-  font-size: 1.5vw;
+  font-size: 24px;
 }
 
 header nav ul .btn:hover,
@@ -65,7 +69,7 @@ nav li {
   cursor: pointer;
 }
 
-/* Hero section styles */
+/* Profile Pic section styles */
 .avatar {
   display: flex;
   justify-content: center;
@@ -86,6 +90,12 @@ nav li {
   font-size: 18px;
 }
 
+.about-box {
+  width: 75%;
+  margin: auto;
+  border-style: solid;
+}
+
 /* My work section styles */
 .work {
 }
@@ -98,11 +108,11 @@ nav li {
 
 .card {
   display: flex;
-  opacity: 60%;
+  opacity: 40%;
   margin: 20px auto;
   justify-content: center;
   position: relative;
-  border: 5px solid var(--tertiary-color);
+  border: 5px solid var(--secondary-color);
   flex-wrap: wrap;
 }
 
@@ -119,7 +129,7 @@ nav li {
   position: absolute;
   bottom: 0%;
   left: auto;
-  background-color: var(--tertiary-color);
+  /* background-color: var(--tertiary-color); */
   color: var(--secondary-color);
   padding: 15px 15px 5px;
   text-align: center;
@@ -219,6 +229,19 @@ textarea {
   height: 120px;
   border: 3px solid #cccccc;
   padding: 5px;
+}
+/* Resume Styles */
+
+.resume-container {
+  /* margin: 20px; */
+  padding: 0 10%;
+}
+
+.resume-list {
+  padding: 0 20px;
+}
+.resume-list li {
+  list-style-type: disc;
 }
 
 /* Footer Styles */
