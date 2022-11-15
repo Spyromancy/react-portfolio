@@ -3,15 +3,15 @@ import React from "react";
 function Resume() {
   return (
     <div>
-      <h2 className="section-title">Resume</h2>
+      <h2 className="section-title">
+        <a
+          className="my-resume"
+          href="https://docs.google.com/document/d/12kZii2si1fd4hGNR2l4Xgr1U1tuL_2hf/view"
+        >
+          My Resume
+        </a>
+      </h2>
       <div className="resume-container">
-        <p>
-          Link to my{" "}
-          <a href="https://docs.google.com/document/d/1_ttgMG_njOH3itKZch3D2O3kkOgwAqk1/view">
-            {" "}
-            resume
-          </a>
-        </p>
         <h2> Front-end Proficiencies </h2>
         <ul className="resume-list">
           <li> HTML </li>

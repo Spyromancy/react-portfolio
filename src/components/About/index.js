@@ -20,6 +20,13 @@ function About() {
             i'm most proud of below so that you can better understand the
             quality of works i bring to the table.
           </p>
+          <h2>Skills</h2>
+          <p>
+            <strong>Languages:</strong> HTML, CSS, JavaScript, Python, MySQL
+            <br />
+            <strong>Applications:</strong> Node.js, JQuery, MongoDb, React,
+            Express.js, Sequelize, APIs
+          </p>
         </div>
       </div>
     </div>
