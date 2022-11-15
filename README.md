@@ -19,6 +19,7 @@ N/A
 ## Usage
 
 ![alt text](./src//assets/images/screenshot.PNG)
+https://spyromancy.github.io/react-portfolio/
 The different sections will allow employers to learn about myself and my skills by reading the About Me section and seeing what projects i've already completed.
 
 ## Contributing
