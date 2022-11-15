@@ -20,7 +20,7 @@ function Modal({ project, toggleModal }) {
             <button type="button">View on GitHub</button>
           </a>
           <button type="button" onClick={toggleModal}>
-            Close this modal
+            Close
           </button>
         </div>
       </div>

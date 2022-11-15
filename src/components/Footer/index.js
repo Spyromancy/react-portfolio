@@ -2,7 +2,11 @@ import React from "react";
 
 function Footer({ viewing }) {
   return (
-    <footer className={`footer ${viewing !== "Work" && "absolute"}`}>
+    <footer
+      className={`footer ${viewing !== "Work" && "absolute"} ${
+        viewing !== "About" && "about-foot"
+      }`}
+    >
       <div className="footer-info">
         <a href="https://github.com/spyromancy"> Github </a>
 
@@ -13,6 +17,8 @@ function Footer({ viewing }) {
         <a href="https://stackoverflow.com/users/18982022/josh-h">
           Stack Overflow
         </a>
+
+        <a href="mailto:josh.haddix598@gmail.com">My Email</a>
       </div>
     </footer>
   );
